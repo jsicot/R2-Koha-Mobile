@@ -1,0 +1,9 @@
+0	For loan
+1	On-site consultation
+3	Not for loan
+4	In treatment
+5	Being repaired
+6	On digitalization
+2	At bookbinding
+7	Temporarily unavailable
+8	Thesis submitted to author embargo

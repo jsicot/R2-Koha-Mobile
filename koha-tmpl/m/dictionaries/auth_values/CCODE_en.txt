@@ -1,0 +1,14 @@
+BD	Comic strip
+LIVRE	Book
+REVUE	Journal
+THESE	Thesis
+ICON	Picture - Photo
+MANU	Manuscript
+CARTE	Map
+MULTI	Multimedia
+PART	Score
+TEST	Psychologic test
+VIDEO	Video
+AUDIO	Audio
+DOS	Thematic report
+PEDA	Learning resource
