@@ -3,6 +3,10 @@ R2-Koha-Mobile
 
 Rennes 2 University Library mobile Koha OPAC
 
+Demo
+=============
+http://catalogue.bu.univ-rennes2.fr
+
 License
 =============
 
