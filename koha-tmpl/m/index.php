@@ -127,7 +127,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title><?php echo $dictionary['TITLE']; ?></title>
 		<link rel="shortcut icon" href="styles/images/favicon.ico" type="image/x-icon" />
-		<link href="style/images/ios_icon.png" rel="apple-touch-icon" />
+		<link href="styles/images/ios_icon.png" rel="apple-touch-icon" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 		<link rel="stylesheet" href="/m/styles/jquery.m_opac_r2.min.css" />
 		<link rel="stylesheet" href="/m/styles/m_opac_r2.css" />
@@ -162,22 +162,22 @@
 					</div>
 				</form>
 				<ul data-role="listview" data-inset="true">
-					<li><a href="http://rennes2.summon.serialssolutions.com/"><img src="style/images/home_icons/summon.png" alt="summon" class="ui-li-icon" />'.$dictionary['ONLINE_DOC'].'</a></li>
-					<li><a href="#bdd"><img src="style/images/home_icons/bdd.png" alt="bdd" class="ui-li-icon" />'.$dictionary['DATABASES'].'</a></li>
-					<li><a href="http://scd-actus.univ-rennes2.fr"><img src="style/images/home_icons/wordpress.png" alt="wordpress" class="ui-li-icon" />'.$dictionary['BU_BLOG'].'</a></li>
-					<li><a href="http://www.facebook.com/bibliotheques.univ.rennes2"><img src="style/images/home_icons/facebook.png" alt="facebook" class="ui-li-icon" />'.$dictionary['BU_FACEBOOK'].'</a></li>
-					<li><a href="http://methodoc.univ-rennes2.fr/"><img src="style/images/home_icons/guide.png" alt="guides" class="ui-li-icon" />'.$dictionary['BU_GUIDES'].'</a></li>					
-					<li><a href="http://www.questionpoint.org/crs/qwidget/mobileQwidget.jsp?langcode=2&instid=13054&skin=gray&size=small&referer=http%3A%2F%2Fcatalogue.bu.univ-rennes2.fr%2F"><img src="style/images/home_icons/ubib.png" alt="ubib" class="ui-li-icon" />'.$dictionary['UBIB'].'</a></li>
+					<li><a href="http://rennes2.summon.serialssolutions.com/"><img src="styles/images/home_icons/summon.png" alt="summon" class="ui-li-icon" />'.$dictionary['ONLINE_DOC'].'</a></li>
+					<li><a href="#bdd"><img src="styles/images/home_icons/bdd.png" alt="bdd" class="ui-li-icon" />'.$dictionary['DATABASES'].'</a></li>
+					<li><a href="http://scd-actus.univ-rennes2.fr"><img src="styles/images/home_icons/wordpress.png" alt="wordpress" class="ui-li-icon" />'.$dictionary['BU_BLOG'].'</a></li>
+					<li><a href="http://www.facebook.com/bibliotheques.univ.rennes2"><img src="styles/images/home_icons/facebook.png" alt="facebook" class="ui-li-icon" />'.$dictionary['BU_FACEBOOK'].'</a></li>
+					<li><a href="http://methodoc.univ-rennes2.fr/"><img src="styles/images/home_icons/guide.png" alt="guides" class="ui-li-icon" />'.$dictionary['BU_GUIDES'].'</a></li>					
+					<li><a href="http://www.questionpoint.org/crs/qwidget/mobileQwidget.jsp?langcode=2&instid=13054&skin=gray&size=small&referer=http%3A%2F%2Fcatalogue.bu.univ-rennes2.fr%2F"><img src="styles/images/home_icons/ubib.png" alt="ubib" class="ui-li-icon" />'.$dictionary['UBIB'].'</a></li>
 				</ul>',
-				'<img width="100%" alt="Mobile Library" src="style/images/bg-mobile.png">',
+				'<img width="100%" alt="Mobile Library" src="styles/images/bg-mobile.png">',
 				'<div data-role="popup" id="addToSpringBoard" data-theme="f" data-overlay-theme="a" data-history="false">
 				<a href="#" data-rel="back" data-role="button" data-theme="d" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
 				<div class="ui-grid-a">
-					<img class="ui-block-a" alt="toStringBoard" src="style/images/toSpringBoard.png" />
+					<img class="ui-block-a" alt="toStringBoard" src="styles/images/toSpringBoard.png" />
 					<p class="ui-block-b">'.$dictionary['TO_SPRINGBOARD'].'</p>
 				</div>
 				<div class="arrow">
-					<img alt="arrow" src="style/images/white_arrow.png" />
+					<img alt="arrow" src="styles/images/white_arrow.png" />
 				</div>
 			</div>');
 			create_page('result','<div id="results"></div>');
