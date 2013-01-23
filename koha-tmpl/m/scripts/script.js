@@ -1032,12 +1032,12 @@ function displayRecord(xml) {
     html += '<div data-role="collapsible" class="share" data-theme="e" data-content-theme="a">\
                 <h3>'+dictionary['DE_SHARE']+'</h3>\
                 <div>\
-                    <a data-role="button" target="_blank" href="mailto:?subject='+title+'&body='+title+' - ('+url+')"><img src="style/images/social-icons/mail.png" alt="Mail"/>Mail</a>\
-                    <a data-role="button" target="_blank" href="http://www.facebook.com/sharer.php?u='+url+'&t='+title+'"><img src="style/images/social-icons/facebook.png" alt="Facebook"/>Facebook</a>\
-                    <a data-role="button" target="_blank" href="http://twitter.com/share?url='+url+'&text='+title+' : "><img src="style/images/social-icons/twitter.png" alt="Twitter"/>Twitter</a>\
-                    <a data-role="button" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'"><img src="style/images/social-icons/linkedin.png" alt="LinkedIn"/>LinkedIn</a>\
-                    <a data-role="button" target="_blank" href="http://www.delicious.com/save?url='+url+'&title='+title+'"><img src="style/images/social-icons/delicious.png" alt="Delicious"/>Delicious</a>\
-                    <a data-role="button" target="_blank" href="http://plus.google.com/share?url='+url+'&title='+title+'&hl=fr"><img src="style/images/social-icons/googleplus.png" alt="Google Plus"/>Google +</a>\
+                    <a data-role="button" target="_blank" href="mailto:?subject='+title+'&body='+title+' - ('+url+')"><img src="styles/images/social-icons/mail.png" alt="Mail"/>Mail</a>\
+                    <a data-role="button" target="_blank" href="http://www.facebook.com/sharer.php?u='+url+'&t='+title+'"><img src="styles/images/social-icons/facebook.png" alt="Facebook"/>Facebook</a>\
+                    <a data-role="button" target="_blank" href="http://twitter.com/share?url='+url+'&text='+title+' : "><img src="styles/images/social-icons/twitter.png" alt="Twitter"/>Twitter</a>\
+                    <a data-role="button" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'"><img src="styles/images/social-icons/linkedin.png" alt="LinkedIn"/>LinkedIn</a>\
+                    <a data-role="button" target="_blank" href="http://www.delicious.com/save?url='+url+'&title='+title+'"><img src="styles/images/social-icons/delicious.png" alt="Delicious"/>Delicious</a>\
+                    <a data-role="button" target="_blank" href="http://plus.google.com/share?url='+url+'&title='+title+'&hl=fr"><img src="styles/images/social-icons/googleplus.png" alt="Google Plus"/>Google +</a>\
                 </div>\
             </div>';
     // URLs (856)
