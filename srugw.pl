@@ -20,7 +20,7 @@ use URI::Escape;
 use CGI::Pretty ":standard";
 
 # Change these values depending on your SRU server
-my $server = 'YOUR_KOHA_SERVER';
+my $server = ''; #example : opac.library.university.edu
 my $server_port = '9998';
 
 my $w = new CGI;

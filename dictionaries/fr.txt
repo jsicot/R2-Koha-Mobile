@@ -1,0 +1,116 @@
+TITLE	Catalogue mobile
+CATALOG_SEARCH	Rechercher sur le catalogue...
+LOADING	Chargement
+DATE_FORMAT	D d M yy
+#### HOME PAGE ####
+HOME_TITLE	Accueil
+TO_SPRINGBOARD	Ajoutez la version mobile du catalogue à votre écran d'accueil pour faciliter vos recherches !
+#### ADVENCED SEARCH ####
+SEARCH_TITLE	Rechercher
+# Index fields
+FD_ALL	Tous les champs
+FD_TITLE	Titre
+FD_AUTHOR	Auteur
+FD_SUBJECT	Sujet
+FD_ED_STAT	Mention d'édition
+FD_PUBLISHER	Éditeur
+FD_SERIES	Collection
+FD_CALL_NUMBER	Cote
+FD_ISBN	ISBN
+# Types
+TY_TYPES	Types
+TY_ALL	Tous
+TY_NONE	Aucun
+#### RESULT LIST ####
+LI_RESULT	 résultat
+LI_HOLDING_SEARCH	Recherche d'exemplaire en cours...
+LI_NO_RESULT	Votre recherche ne retourne aucun résultat.
+LI_NO_MORE	Pas de résultats supplémentaires
+# Title elements
+LI_SEARCH_FOR	Recherche 
+LI_A_DOCUMENT	d'un document
+LI_OF	de 
+LI_OR	 ou 
+LI_WITH_KEYWORD	 avec le(s) mot-clé(s) 
+LI_HAVING_AS	 ayant comme
+#### AVAILABILITIES ####
+AV_AVAILABLE	Disponible
+AV_AVAILABLE_SOON	Bientôt disponible
+AV_ONLINE	Disponible en ligne
+AV_NOT_AVAILABLE	Non disponible
+AV_NO_HOLDING	Aucun exemplaire
+#### DETAIL PAGE ####
+DE_DETAIL   Détail de
+DE_DESC	Description
+DE_COLL_LINK	Voir d'autres documents de la même collection
+DE_LAUNCH_SRCH_ON	Lancer une recherche sur 
+DE_SUBJECT	le sujet
+DE_SUBJECTS	les sujets
+DE_SHARE	Partager
+DE_NO_ONLINE	Non disponible en ligne
+DE_HOLDING	Exemplaire
+DE_BACK_ON	Retour prévu le
+DE_NO_HOLDING	Il n'existe aucun exemplaire pour cet ouvrage.
+DE_YOUTUBE	Voir la bande-annonce sur
+DE_CONSULT_ONLINE	Consulter en ligne
+DE_SERIES_STATE	Etat de collection
+# Advenced availabilities
+DE_CHECKED_OUT	Emprunté
+DE_ITEM_LOST	Perdu
+DE_ITEM_WITHDRAWN	Retiré
+DE_ITEM_DAMAGED	Endommagé
+#### LOGIN PAGE ####
+# Login methods
+LG	Se connecter
+LG_INSTR	Saisissez ci-dessous l'identifiant et le mot de passe fournis lors de votre inscription :
+LG_USERNAME	Identifiant
+LG_PASSWD	Mot de passe
+LG_LOGIN	Connexion
+#### ACCOUNT PAGE ####
+AC_TITLE	Votre compte lecteur
+AC_PL_LOGIN	Veuillez vous connecter afin d'accéder à votre compte lecteur.
+AC_ERROR	Une erreur s'est produite lors de la connexion, veuillez retenter de vous connecter.
+AC_HELLO	Bonjour 
+AC_VALID	Votre inscription aux services de la bibliothèque est valide jusqu'au
+AC_UNVALID	Votre inscription aux services de la bibliothèque n'est plus valide depuis 
+AC_SUSPENS	Votre compte a été suspendu
+AC_SUSPENS_TIL	 jusqu'au 
+AC_SUSPENS_COM	 avec le commentaire 
+AC_NO_ADDR	Nous n'avons pas <strong>d'informations de contact</strong> dans notre fichier. <strong>Merci de nous contacter.</strong>
+AC_CARD_LOST	Votre carte de bibliothèque a été signalée comme <strong>perdue ou volée</strong>. Si c'est une erreur, veuillez apporter votre carte à la banque de prêt de votre bibliothèque et l'erreur sera corrigée.
+AC_YOU_HAVE	Vous avez 
+AC_ALERT	 alerte
+AC_MESSAGE	un message
+AC_LOANS	Vos prêts
+AC_BACK_TODAY	A rendre <strong>aujourd'hui</strong>
+AC_LATE_TIL	En retard depuis le 
+AC_BACK_THE	A rendre le 
+AC_NO_LOAN	Vous n'avez aucun prêt en cours.
+AC_BAD_LOG	L'identifiant et/ou le mot de passe fournis n'ont pas permis d'établir une connexion, veuillez retenter de vous connecter.
+#### UNLOG PAGE ####
+UL_READER_ACCOUNT	Compte lecteur
+UL_UNLOG	Se déconnecter
+#### CALENDAR PLUGIN ####
+CAL_PREV_DAY	Veille
+CAL_NEXT_DAY	Lendemain
+CAL_DATE_FORMAT	dd/mm/yy
+#### DATES ELEMENTS ####
+D_MON	Lundi
+D_TUE	Mardi
+D_WED	Mercredi
+D_THU	Jeudi
+D_FRY	Vendredi
+D_SAT	Samedi
+D_SUN	Dimanche
+D_JAN	Janvier
+D_FEB	Février
+D_MAR	Mars
+D_APR	Avril
+D_MAY	Mai
+D_JUN	Juin
+D_JUL	Juillet
+D_AUG	Août
+D_SEP	Septembre
+D_OCT	Octobre
+D_NOV	Novembre
+D_DEC	Décembre

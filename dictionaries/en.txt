@@ -1,0 +1,116 @@
+TITLE	Mobile Catalog
+CATALOG_SEARCH	Search on catalog...
+LOADING	Loading
+DATE_FORMAT	D, M dS yy
+#### HOME PAGE ####
+HOME_TITLE	Home
+TO_SPRINGBOARD	Add catalog mobile version to yout home page to ease your searches !
+#### ADVENCED SEARCH ####
+SEARCH_TITLE	Search
+# Index fields
+FD_ALL	Any field
+FD_TITLE	Title
+FD_AUTHOR	Author
+FD_SUBJECT	Subject
+FD_ED_STAT	Edition statement
+FD_PUBLISHER	Publisher
+FD_SERIES	Series
+FD_CALL_NUMBER	Call number
+FD_ISBN	ISBN
+# Types
+TY_TYPES	Types
+TY_ALL	All
+TY_NONE	None
+#### RESULT LIST ####
+LI_RESULT	 result
+LI_HOLDING_SEARCH	Searching holdings...
+LI_NO_RESULT	Your search return no result.
+LI_NO_MORE	No more results available
+# Title elements
+LI_SEARCH_FOR	Search for 
+LI_A_DOCUMENT	a document
+LI_OF	a 
+LI_OR	 or 
+LI_WITH_KEYWORD	 with keyword(s) 
+LI_HAVING_AS	 having as
+#### AVAILABILITIES ####
+AV_AVAILABLE	Available
+AV_AVAILABLE_SOON	Available soon
+AV_ONLINE	Available online
+AV_NOT_AVAILABLE	Not available
+AV_NO_HOLDING	No holding
+#### DETAIL PAGE ####
+DE_DETAIL	Detail of
+DE_DESC	Description
+DE_COLL_LINK	See other documents from the same collection
+DE_LAUNCH_SRCH_ON	Search on
+DE_SUBJECT	the subject
+DE_SUBJECTS	subjects
+DE_SHARE	Share
+DE_NO_ONLINE	Not available online
+DE_HOLDING	Holding
+DE_BACK_ON	Back on
+DE_NO_HOLDING	There is no holding for this document.
+DE_YOUTUBE	Watch trailer on
+DE_CONSULT_ONLINE	Consult online
+DE_SERIES_STATE	Series state
+# Advenced availabilities
+DE_CHECKED_OUT	Checked out
+DE_ITEM_LOST	Lost
+DE_ITEM_WITHDRAWN	Withdrawn
+DE_ITEM_DAMAGED	Damaged
+#### LOGIN PAGE ####
+# Login methods
+LG	Sign in
+LG_INSTR	Enter below the username and password provided during your registration :
+LG_USERNAME	Username
+LG_PASSWD	Password
+LG_LOGIN	Login
+#### ACCOUNT PAGE ####
+AC_TITLE	Your reader account
+AC_PL_LOGIN	Please sign in to access your library account.
+AC_ERROR	An error occurred during loging in, please retry.
+AC_HELLO	Hello 
+AC_VALID	Your subscription to library services is effective until
+AC_UNVALID	Your subscription to library services has expired on 
+AC_SUSPENS	Your account is suspended
+AC_SUSPENS_TIL	 until 
+AC_SUSPENS_COM	 with the comment 
+AC_NO_ADDR	We haven't any <strong>contact information</strong> in our base. <strong>Please contact us.</strong>
+AC_CARD_LOST	Your library card is reported as <strong>lost or stolen</strong>. If it is a mistake, please bring your card to your library loan bank.
+AC_YOU_HAVE	You've got 
+AC_ALERT	 alert
+AC_MESSAGE	a message
+AC_LOANS	Your loans
+AC_BACK_TODAY	To return <strong>today</strong>
+AC_LATE_TIL	Late since 
+AC_BACK_THE	To return the 
+AC_NO_LOAN	You have no outstanding loan.
+AC_BAD_LOG	The provided username and/or password failed to etablish a connection, please retry.
+#### UNLOG PAGE ####
+UL_READER_ACCOUNT	Reader account
+UL_UNLOG	Logout
+#### CALENDAR PLUGIN ####
+CAL_PREV_DAY	Previous day
+CAL_NEXT_DAY	Next day
+CAL_DATE_FORMAT	mm-dd-yy
+#### DATES ELEMENTS ####
+D_MON	Monday
+D_TUE	Tuesday
+D_WED	Wednesday
+D_THU	Thursday
+D_FRY	Fryday
+D_SAT	Saturday
+D_SUN	Sunday
+D_JAN	January
+D_FEB	February
+D_MAR	March
+D_APR	April
+D_MAY	May
+D_JUN	June
+D_JUL	July
+D_AUG	August
+D_SEP	September
+D_OCT	October
+D_NOV	November
+D_DEC	December
