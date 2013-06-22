@@ -27,8 +27,8 @@
 		global $dictionaryList;
 		global $lang;
 		?>
-		<div data-role="page" id="<?php echo $id; ?>" data-theme="a">
-			<div data-role="header" data-position="fixed" data-theme="a">
+		<div data-role="page" id="<?php echo $id; ?>" data-theme="c">
+			<div data-role="header" data-position="fixed" data-theme="c">
 				<div data-role="navbar" data-iconpos="top">
 					<ul>
 						<li><a href="#home" data-icon="home" data-direction="reverse"></a></li>
@@ -49,7 +49,7 @@
 	}
 	function create_dialog($id,$title,$content) {
 		?>
-		<div data-role="dialog" id="<?php echo $id; ?>" data-theme="a">
+		<div data-role="dialog" id="<?php echo $id; ?>" data-theme="c">
 			<div data-role="header">
 				<h1><?php echo $title; ?></h1>
 			</div>
@@ -175,7 +175,7 @@
 						</select>
 						<input type="search" name="keywords" id="keywords2" value="" placeholder="'.$dictionary['CATALOG_SEARCH'].'"  />
 						<br />
-						<div id="itype" data-role="collapsible" data-theme="a" data-content-theme="a">
+						<div id="itype" data-role="collapsible" data-theme="c" data-content-theme="c">
 							<h3>'.$dictionary['TY_TYPES'].' ('.$dictionary['TY_ALL'].')</h3>
 							<div data-role="controlgroup" data-mini="true" data-type="horizontal">
 								<input type="button" value="'.$dictionary['TY_ALL'].'" class="all" data-icon="check" data-theme="b" />
@@ -198,6 +198,6 @@
                 <a id="logout" data-role="button" data-icon="delete">'.$dictionary['UL_UNLOG'].'</a>')
 		?>
 		<!-- Hack page : to force same page reload on hash change -->
-		<div data-role="page" id="hack" data-theme="a"></div>
+		<div data-role="page" id="hack" data-theme="c"></div>
 	</body>
 </html>

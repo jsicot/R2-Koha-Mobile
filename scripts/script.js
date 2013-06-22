@@ -407,14 +407,14 @@ function requestAccount(data) {
                 }
                 // If alerts are set, display them on collapsible listview
                 if (alertCount > 0) {
-                    html += '<div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="alert" data-expanded-icon="alert">\
+                    html += '<div data-role="collapsible" data-theme="c" data-content-theme="c" data-collapsed-icon="alert" data-expanded-icon="alert">\
                                 <h3>'+dictionary['AC_YOU_HAVE']+' '+alertCount+' '+dictionary['AC_ALERT']+(alertCount>1?'s':'')+'</h3>\
                                 <ul data-role="listview" class="accountalert">'+alertOutput+'</ul>\
                             </div>';
                 }
                 // If opac note is set, display it on collaspible
                 if ($(R).find('GetPatronInfo>opacnote').size() > 0 && $(R).find('GetPatronInfo>opacnote').text() != '') {
-                    html += '<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="info" data-expanded-icon="info">\
+                    html += '<div data-role="collapsible" data-theme="b" data-content-theme="c" data-collapsed-icon="info" data-expanded-icon="info">\
                                 <h3>'+dictionary['AC_YOU_HAVE']+' '+dictionary['AC_MESSAGE']+'</h3>\
                                 <div>'+$(R).find('GetPatronInfo>opacnote').text()+'</div>\
                             </div>';
@@ -449,7 +449,7 @@ function requestAccount(data) {
                     });
                     // Display toRestore loan in listview
                     $(loans.toRestore).each(function() {
-                        html += '<li class="caution"><input type="button" data-icon="info" data-theme="a" data-iconpos="notext" />\
+                        html += '<li class="caution"><input type="button" data-icon="info" data-theme="c" data-iconpos="notext" />\
                                     <div class="title">'+this.title+'</div>\
                                     <div class="author">'+this.author+'</div>\
                                     <div class="duedate">'+dictionary['AC_BACK_TODAY']+'</div>\
@@ -763,7 +763,7 @@ function displayRecord(xml) {
             '</div>';
     // Title (200 $a $d $e $h $i)
     html += mx.tmp200();
-    html += '<div data-role="collapsible" class="detaildescription" data-collapsed="false" data-theme="a" data-content-theme="a">\
+    html += '<div data-role="collapsible" class="detaildescription" data-collapsed="false" data-theme="c" data-content-theme="c">\
                 <h3>'+dictionary['DE_DESC']+'</h3>\
                 <div class="ui-grid-a">';
     if ($(mxml).find('[tag="700"],[tag="710"],[tag="720"],[tag="701"],[tag="711"],[tag="721"],[tag="702"],[tag="712"],[tag="722"],[tag="716"]').size() > 0 && ccode != journalLabel) { 
@@ -786,7 +786,7 @@ function displayRecord(xml) {
     html += mx.tmp6XX();
     var url = default_url+'cgi-bin/koha/opac-detail.pl?biblionumber='+$_GET['id'];
     // Display collapsible list of share link (mail, facebook, twitter, linkedin, delicious and google plus)
-    html += '<div data-role="collapsible" class="share" data-theme="a" data-content-theme="a">\
+    html += '<div data-role="collapsible" class="share" data-theme="c" data-content-theme="c">\
                 <h3>'+dictionary['DE_SHARE']+'</h3>\
                 <div>\
                     <a data-role="button" target="_blank" href="mailto:?subject='+title+'&body='+title+' - ('+url+')"><img src="styles/images/social-icons/mail.png" alt="Mail"/>Mail</a>\
