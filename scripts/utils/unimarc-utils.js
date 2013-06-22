@@ -137,7 +137,7 @@ function MarcXML(marcxml) {
     this.tmp6XX = function() {
         var toReturn = '';
         if ($(this.mx).find('[tag="600"],[tag="601"],[tag="606"],[tag="607"],[tag="610"]').size() > 0) {
-            toReturn += '<div data-role="collapsible" data-theme="a" data-content-theme="a">\
+            toReturn += '<div data-role="collapsible" data-theme="c" data-content-theme="c">\
                             <h3>'+dictionary['FD_SUBJECT']+'s</h3>\
                             <div class="sujets">';
             $(this.mx).find('[tag="600"],[tag="601"],[tag="606"],[tag="607"],[tag="610"]').each(function() {
